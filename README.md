@@ -3,6 +3,11 @@ Rack::HerokuMeta
 
 Rack middleware for checking the process commit hash on Heroku
 
+Note/Caveat
+-----------
+
+I need a stuck dyno to occur so I can fully test this ;)
+
 Why
 ---
 
