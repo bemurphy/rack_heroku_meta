@@ -18,6 +18,12 @@ problems.  The middleware provides one way of quickly checking.
 How
 ---
 
+In your gemfile:
+
+```ruby
+gem "rack_heroku_meta", :require => "rack/heroku_meta"
+```
+
 In your rackup:
 
 ```ruby
