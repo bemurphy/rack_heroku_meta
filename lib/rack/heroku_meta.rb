@@ -30,6 +30,7 @@ module Rack
     def meta
       ps = ENV["PS"]
       commit_hash = ENV["COMMIT_HASH"]
+      # Manual JSON to avoid a gem dependency
       %Q({"ps":"#{ps}","commit_hash":"#{commit_hash}"})
     end
 
